@@ -21,7 +21,7 @@ https://disbadges.londra.gq/api/
 
 | Parametre      | Tip         | Gerekli  | Açıklama                                                           |
 | :------------- | :---------- | :------: | :----------------------------------------------------------------- |
-| `activity`     | `string`    | ✅      | İstenen aktivite verisi platformu `status|playing|vscode|spotify`  |
+| `activity`     | `string`    | ✅      | İstenen aktivite verisi platformu `status\|playing\|vscode\|spotify`  |
 | `id`           | `string`    | ✅      | Aktivite verileri çağırılacak kullanıcı kimliği                    |
 
 ```
