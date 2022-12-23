@@ -3,7 +3,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![](https://disbadges.londra.gq/badge/status/1053616520040816661)](https://github.com/londrae/dis-badges/)
 
-**dis-badges**, Discord aktivitelerini GitHub profilinizde sergileyebileceğiniz bir araçtır.<br>
+**dis-badges**, Discord aktivitelerinizi GitHub profilinizde sergileyebileceğiniz bir araçtır.<br>
 Bu proje, genel kullanıma yönelik olmayan bir geliştirme yapısıdır. Yalnızca `Alpha Testers` projeden yararlanabilir.
 
 ## API Kullanımı
