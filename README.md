@@ -77,7 +77,7 @@ GET /api/badge/:activity/:id
 
 ## Ekran Görüntüleri
 
-![](https://media.discordapp.net/attachments/1055791675739471902/1055791782304170034/resim.png)
+<img src="https://media.discordapp.net/attachments/1055791675739471902/1055791782304170034/resim.png" style="width: 550px">
 
 ## Yazarlar ve Teşekkür
 
