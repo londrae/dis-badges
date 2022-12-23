@@ -1,4 +1,3 @@
-
 # dis-badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -51,27 +50,27 @@ GET /api/badge/:activity/:id
 
 ## Örnekler
 
-![](https://disbadges.londra.gq/badge/status/962684663137181716)
+![](https://nocache.advaith.workers.dev?url=https://disbadges.londra.gq/badge/status/962684663137181716)
 ```md
 ![](https://disbadges.londra.gq/badge/status/962684663137181716)
 ```
 
-![](https://disbadges.londra.gq/badge/status/962684663137181716?showUsername=true)
+![](https://nocache.advaith.workers.dev?url=https://disbadges.londra.gq/badge/status/962684663137181716?showUsername=true)
 ```md
 ![](https://disbadges.londra.gq/badge/status/962684663137181716?showUsername=true)
 ```
 
-![]()
+![](https://nocache.advaith.workers.dev?url=https://disbadges.londra.gq/badge/playing/962684663137181716)
 ```md
 ![](https://disbadges.londra.gq/badge/playing/962684663137181716)
 ```
 
-![]()
+![](https://nocache.advaith.workers.dev?url=https://disbadges.londra.gq/badge/vscode/962684663137181716)
 ```md
 ![](https://disbadges.londra.gq/badge/vscode/962684663137181716)
 ```
 
-![]()
+![](https://nocache.advaith.workers.dev?url=https://disbadges.londra.gq/badge/spotify/962684663137181716)
 ```md
 ![](https://disbadges.londra.gq/badge/spotify/962684663137181716)
 ```
