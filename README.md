@@ -6,8 +6,6 @@
 **dis-badges**, Discord aktivitelerini GitHub profilinizde sergileyebileceğiniz bir araçtır.<br>
 Bu proje, genel kullanıma yönelik olmayan bir geliştirme yapısıdır. Yalnızca `Alpha Testers` projeden yararlanabilir.
 
-------
-
 ## API Kullanımı
 
 #### API temel URL
@@ -26,7 +24,6 @@ https://disbadges.londra.gq/api/
 ```
 GET /api/badge/:activity/:id
 ```
-------
 
 ## Kullanım
 
