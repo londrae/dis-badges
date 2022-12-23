@@ -72,6 +72,16 @@ GET /api/badge/:activity/:id
 ![](https://disbadges.londra.gq/badge/spotify/962684663137181716)
 ```
 
+## Rozet Değişmiyor Mu?
+
+Rozetin her yenilendiğinde değişmesi için [@londrae](https://github.com/londrae) tarafından geliştirilen [`nocache.londra.workers.dev`](https://nocache.londra.workers.dev) servisini kullanabilirsiniz.
+
+#### Örnek kullanım
+```
+https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/spotify/962684663137181716
+```
+> Bu rozet `nocache.londra.workers.dev` servisi sayesinde sayfa her yenilendiğinde yerel cache verilerini temizleyecek ve güncellenecektir.
+
 ## Ekran Görüntüleri
 
 <img src="https://media.discordapp.net/attachments/1055791675739471902/1055791782304170034/resim.png" style="width: 550px">
