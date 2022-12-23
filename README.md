@@ -19,10 +19,10 @@ https://disbadges.londra.gq/api/
 
 #### Genel parametreler
 
-| Parametre      | Tip         | Gerekli  | Açıklama                                                           |
-| :------------- | :---------- | :------: | :----------------------------------------------------------------- |
-| `activity`     | `string`    | ✅      | İstenen aktivite verisi platformu `status\|playing\|vscode\|spotify`  |
-| `id`           | `string`    | ✅      | Aktivite verileri çağırılacak kullanıcı kimliği                    |
+| Parametre      | Tip         | Gerekli  | Açıklama                                                                |
+| :------------- | :---------- | :------: | :---------------------------------------------------------------------- |
+| `activity`     | `string`    | ✅      | İstenen aktivite verisi platformu `status\|playing\|vscode\|spotify`    |
+| `id`           | `string`    | ✅      | Aktivite verileri çağırılacak kullanıcı kimliği                         |
 
 ```
 GET /api/badge/:activity/:id
@@ -61,17 +61,17 @@ GET /api/badge/:activity/:id
 ![](https://disbadges.londra.gq/badge/status/962684663137181716?showUsername=true)
 ```
 
-![](https://disbadges.londra.gq/badge/playing/962684663137181716)
+![]()
 ```md
 ![](https://disbadges.londra.gq/badge/playing/962684663137181716)
 ```
 
-![](https://disbadges.londra.gq/badge/vscode/962684663137181716)
+![]()
 ```md
 ![](https://disbadges.londra.gq/badge/vscode/962684663137181716)
 ```
 
-![](https://disbadges.londra.gq/badge/spotify/962684663137181716)
+![]()
 ```md
 ![](https://disbadges.londra.gq/badge/spotify/962684663137181716)
 ```
