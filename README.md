@@ -36,9 +36,10 @@ GET /api/badge/:activity/:id
 | Parametre      | Tip         | Gerekli  | Varsayılan | Açıklama                                  |
 | :------------- | :---------- | :------: | :--------- | :---------------------------------------- |
 | `showUsername` | `boolean`   | ❌      | `false`    | Rozette kullanıcı adını gizle/göster      |
+| `showDiscrim`  | `boolean`   | ❌      | `false`    | Rozette kullanıcı etiketini gizle/göster  |
 | `showIcon`     | `boolean`   | ❌      | `true`     | Rozette konu gizle/göster                 |
 
-**Not:** `showUsername` parametresi yalnızca `activity` parametresi `status` değerine sahip olduğunda çalışır.
+**Not:** `showUsername` ve `showDiscrim` parametreleri yalnızca `activity` parametresi `status` değerine sahip olduğunda çalışır.
 
 **Not:** Özel parametreler `query` olarak yazılmalıdır.
 
