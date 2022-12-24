@@ -5,3 +5,5 @@
 
 **dis-badges** is a tool to show your Discord activities on your GitHub profile.<br>
 This is a development build not intended for public use. Only `Alpha Testers` can use the project.
+
+## API Reference
