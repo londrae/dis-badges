@@ -89,3 +89,4 @@ https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/spotify
 ## Yazarlar ve Teşekkür
 
 - [@londrae](https://github.com/londrae) geliştirme için.
+- [@efeeozc](https://github.com/efeeozc) dokümanların hazırlanması için.
