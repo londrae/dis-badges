@@ -14,64 +14,56 @@ Bu proje, genel kullanıma yönelik olmayan bir geliştirme yapısıdır. Yalnı
 https://disbadges.londra.gq/api/
 ```
 
-#### Genel parametreler
-
-| Parametre      | Tip         | Gerekli  | Açıklama                                                                |
-| :------------- | :---------- | :------: | :---------------------------------------------------------------------- |
-| `activity`     | `string`    | ✅      | İstenen aktivite verisi platformu `status\|playing\|vscode\|spotify`    |
-| `id`           | `string`    | ✅      | Aktivite verileri çağırılacak kullanıcı kimliği                         |
-
-```
+```http
 GET /api/badge/:activity/:id
 ```
+> (bkz. [Parametreler](/#Parametreler))
 
 ## Kullanım
 
-#### Özel parametreler
+### Parametreler
+
+| Parametre      | Tip         | Gerekli  | Açıklama                                                                |
+| :------------- | :---------- | :------: | :---------------------------------------------------------------------- |
+| `:activity`     | `string`    | ✅      | İstenen aktivite verisi platformu `status\|playing\|vscode\|spotify`    |
+| `:id`           | `string`    | ✅      | Aktivite verileri çağırılacak kullanıcı kimliği                         |
+
+#### İsteğe bağlı parametreler
 
 | Parametre      | Tip         | Gerekli  | Varsayılan | Açıklama                                  |
 | :------------- | :---------- | :------: | :--------- | :---------------------------------------- |
-| `iconOnly`     | `boolean`   | ❌      | `false`    | Rozette label etiketi yerine logo görünür |
-| `showUsername` | `boolean`   | ❌      | `false`    | Rozette kullanıcı adını gizle/göster      |
-| `showDiscrim`  | `boolean`   | ❌      | `false`    | Rozette kullanıcı etiketini gizle/göster  |
-| `showIcon`     | `boolean`   | ❌      | `true`     | Rozette konu gizle/göster                 |
+| `?iconOnly`     | `boolean`   | ❌      | `false`    | Rozette label etiketi yerine logo görünür |
+| `?showUsername` | `boolean`   | ❌      | `false`    | Rozette kullanıcı adını gizle/göster      |
+| `?showDiscrim`  | `boolean`   | ❌      | `false`    | Rozette kullanıcı etiketini gizle/göster  |
+| `?showIcon`     | `boolean`   | ❌      | `true`     | Rozette konu gizle/göster                 |
+| `?style`        | `string`    | ❌      | `flat`     | Rozet stili                               |
 
-**Not:** `showUsername` ve `showDiscrim` parametreleri yalnızca `activity` parametresi `status` değerine sahip olduğunda çalışır.
+**Not:** `?showUsername` ve `?showDiscrim` parametreleri yalnızca `:activity` parametresi `status` değerine sahip olduğunda çalışır.
 
-**Not:** Özel parametreler `query` olarak yazılmalıdır.
-
-```
-/badge/status/:id?showUsername=true
-/badge/:activity/:id?showIcon=false
-/badge/status/:id?showUsername=true&showIcon=false
-```
-
-## Örnekler
-
-![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/status/962684663137181716)
-```md
-![](https://disbadges.londra.gq/badge/status/962684663137181716)
+```http
+GET /badge/:activity/:id
+GET /badge/:activity/:id?showIcon=false
+GET /badge/status/:id?showUsername=true
+GET /badge/status/:id?showUsername=true&showIcon=false
 ```
 
-![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/status/962684663137181716?showUsername=true)
-```md
-![](https://disbadges.londra.gq/badge/status/962684663137181716?showUsername=true)
-```
+##### `:activity`
 
-![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/playing/962684663137181716)
-```md
-![](https://disbadges.londra.gq/badge/playing/962684663137181716)
-```
+| Değer       | Örnek                                                                                                     |
+| :---------- | :-------------------------------------------------------------------------------------------------------- |
+| `status`    | ![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/status/962684663137181716)   |
+| `playing`   | ![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/playing/962684663137181716)  |
+| `vscode`    | ![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/vscode/962684663137181716)   |
+| `spotify`   | ![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/spotify/962684663137181716)  |
 
-![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/vscode/962684663137181716)
-```md
-![](https://disbadges.londra.gq/badge/vscode/962684663137181716)
-```
+##### `?style`
 
-![](https://nocache.londra.workers.dev?url=https://disbadges.londra.gq/badge/spotify/962684663137181716)
-```md
-![](https://disbadges.londra.gq/badge/spotify/962684663137181716)
-```
+| Değer           | Örnek                                                                        |
+| :-------------- | :--------------------------------------------------------------------------- |
+| `plastic`       | ![](https://shields.io/badge/style-plastic-blue?style=plastic)               |
+| `flat`          | ![](https://shields.io/badge/style-flat-blue?style=flat)                     |
+| `flat-square`   | ![](https://shields.io/badge/style-flat--square-blue?style=flat-square)      |
+| `for-the-badge` | ![](https://shields.io/badge/style-for--the--badge-blue?style=for-the-badge) |
 
 ## Rozet Değişmiyor Mu?
 
