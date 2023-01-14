@@ -31,6 +31,7 @@ GET /api/badge/:activity/:id
 
 | Parametre      | Tip         | Gerekli  | Varsayılan | Açıklama                                  |
 | :------------- | :---------- | :------: | :--------- | :---------------------------------------- |
+| `iconOnly`     | `boolean`   | ❌      | `false`    | Rozette label etiketi yerine logo görünür |
 | `showUsername` | `boolean`   | ❌      | `false`    | Rozette kullanıcı adını gizle/göster      |
 | `showDiscrim`  | `boolean`   | ❌      | `false`    | Rozette kullanıcı etiketini gizle/göster  |
 | `showIcon`     | `boolean`   | ❌      | `true`     | Rozette konu gizle/göster                 |
