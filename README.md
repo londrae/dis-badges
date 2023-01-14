@@ -17,7 +17,7 @@ https://disbadges.londra.gq/api/
 ```http
 GET /api/badge/:activity/:id
 ```
-> (bkz. [Parametreler](/#Parametreler))
+> (bkz. [Parametreler](/README.md#parametreler))
 
 ## Kullanım
 
